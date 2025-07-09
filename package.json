@@ -1,11 +1,13 @@
 {
-  "name": "i18n-extractor",
+  "name": "i18n-extractor-cli",
   "version": "1.0.0",
-  "description": "Extracts i18n keys from js, jsx, ts and tsx files",
+  "description": "CLI tool for extracting i18n keys from source files",
   "main": "src/index.mjs",
   "type": "module",
+  "files": ["src"],
+  "keywords": ["i18n", "translation", "babel", "localization", "extractor"],
   "bin": {
-    "i18n-extractor": "./src/index.mjs"
+    "i18n-extract": "./src/index.mjs"
   },
   "scripts": {
     "test": "vitest"
