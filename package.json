@@ -1,0 +1,33 @@
+{
+  "name": "i18n-extractor",
+  "version": "1.0.0",
+  "description": "Extracts i18n keys from js, jsx, ts and tsx files",
+  "main": "src/index.mjs",
+  "type": "module",
+  "bin": {
+    "i18n-extractor": "./src/index.mjs"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeudy100/i18nExtractor.git"
+  },
+  "author": "Jordan Eudy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeudy100/i18nExtractor/issues"
+  },
+  "homepage": "https://github.com/jeudy100/i18nExtractor#readme",
+  "dependencies": {
+    "@babel/parser": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
+    "exceljs": "^4.4.0",
+    "glob": "^11.0.3",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
