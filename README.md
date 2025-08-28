@@ -25,7 +25,6 @@ It scans code for translation keys used in `t()` function calls and `<Trans>` JS
 ```bash
 i18n-extract \
   --globs frontend::\"src/frontend/**/*.{ts,tsx,js,jsx}\" \
-  --globs backend::src/backend/**/*.js \
   --ignore '**/__tests__/**' \
   --outputDir ./dist/translations \
   --baseName translation \
